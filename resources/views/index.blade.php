@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="Este es un documento HTML5">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <link rel="stylesheet" href="{{ asset('css/misestilos.css') }}">
+    <link rel="stylesheet" href="css/misestilos.css">
 </head>
 <body>
     <header id="cabeceralogo">

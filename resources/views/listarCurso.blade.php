@@ -16,7 +16,7 @@
         <tr>
             <td> {{ $curso -> nombreDelCurso }} </td>
             <td> {{ $curso -> precioDelCurso }} </td>
-            <td> {{ $curso -> creadoEn }} </td>
+            <td> {{ $curso -> created_at }} </td>
             <td><a href="/eliminar/{{ $curso -> $id }}">Eliminar Curso</a></td>
             <td><a href="/modificar/{{ $curso -> $id }}">Modificar Curso</a></td>
         </tr>

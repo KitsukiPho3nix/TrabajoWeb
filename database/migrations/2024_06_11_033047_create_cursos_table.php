@@ -17,7 +17,6 @@ class CreateCursosTable extends Migration
             $table->id();
             $table->nombreDelCurso();
             $table->precioDelCurso();
-            $table->creadoEn();
             $table->timestamps();
         });
     }
