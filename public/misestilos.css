@@ -165,7 +165,7 @@ footer address {
     padding: 0;
   }
 
-  nav li {
+  nav ul li {
     margin-bottom: 15px;
   }
 
@@ -176,18 +176,15 @@ footer address {
 
   #articulosprincipales {
     padding-right: 0;
+    width: 100%;
   }
 
-  #infoadicional {
-    margin: 20px 0;
-    text-align: center;
+  aside {
+    width: 90%;
+    max-width: 100%;
   }
 
-  #pielogo {
-    text-align: center;
-  }
-
-  #pielogo .seccionpie {
+  footer .seccionpie {
     margin-bottom: 20px;
   }
 }
