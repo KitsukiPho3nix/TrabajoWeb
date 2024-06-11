@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ff4500;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #ff4500;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ff6347;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ff4500;
+}
+
+main {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#articulosprincipales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  width: 45%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 20px 2.5%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+  color: #ff6347;
+}
+
+article time {
+  display: block;
+  color: #777;
+  margin-top: 10px;
+}
+
+article figure {
+  margin: 20px 0;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+aside {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+aside h1 {
+  color: #ff6347;
+}
+
+aside p {
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .seccionpie {
+  margin-bottom: 20px;
+}
+
+footer .seccionpie h1 {
+  color: #ff6347;
+  margin-bottom: 10px;
+}
+
+footer .seccionpie p,
+footer .seccionpie a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .seccionpie a:hover {
+  text-decoration: underline;
+}
+
+footer address {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 20px 0;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  nav li {
+    margin-bottom: 15px;
+  }
+
+  main {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  #articulosprincipales {
+    padding-right: 0;
+  }
+
+  #infoadicional {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  #pielogo {
+    text-align: center;
+  }
+
+  #pielogo .seccionpie {
+    margin-bottom: 20px;
+  }
+}
